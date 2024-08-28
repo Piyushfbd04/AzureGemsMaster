@@ -13,7 +13,6 @@ Summary of all the [AzureGems](https://azuregems.io) libraries. For more detaile
 
 ## AzureGems.CosmosDB
 
-[View Code](https://github.com/william-liebenberg/AzureGems/tree/master/AzureGems.CosmosDB)
 
 Library for getting started with Cosmos DB quickly and easily.
 
@@ -45,15 +44,11 @@ services.AddCosmosDb(builder =>
 
 ## AzureGems.Repository.Abstractions
 
-[View Code](https://github.com/william-liebenberg/AzureGems/tree/master/AzureGems.Repository.Abstractions)
 
 Interface for a generic [Repository Pattern](https://deviq.com/repository-pattern/).
 
-Sample implementation: [AzureGems.Repository.CosmosDB](https://github.com/william-liebenberg/AzureGems/tree/master/AzureGems.Repository.CosmosDB)
-
 ## AzureGems.Repository.CosmosDB
 
-[View Code](https://github.com/william-liebenberg/AzureGems/tree/master/AzureGems.Repository.CosmosDB)
 
 Cosmos DB specific implementation of the generic [Repository Pattern](https://deviq.com/repository-pattern/). `CosmosDbContainerRepository.cs` implements the `IRepository<T>` interface.
 
@@ -76,15 +71,12 @@ The instance of your `DbContext` can now be used in your application's services 
 
 ## AzureGems.SpendOps.Abstractions
 
-[View Code](https://github.com/william-liebenberg/AzureGems/tree/master/AzureGems.SpendOps.Abstractions)
 
 Interfaces necessary for implementing [**#SpendOps**](https://azuregems.io/spendops-with-azure-cosmos-db/) into your ORM/Data Layers and Test Libraries.
 
-Sample implementation using Cosmos DB: [AzureGems.SpendOps.CosmosDB](https://github.com/william-liebenberg/AzureGems/tree/master/AzureGems.SpendOps.CosmosDB)
 
 ## AzureGems.SpendOps.CosmosDB
 
-[View Code](https://github.com/william-liebenberg/AzureGems/tree/master/AzureGems.SpendOps.CosmosDB)
 
 Cosmos DB implementations for `IChargeTracker` and `ISpendTestChargeTracker`.
 
@@ -98,13 +90,10 @@ For **unit/integration/spend** tests an implementation of `ISpendTestChargeTrack
 
 ## AzureGems.SpendOps.CosmosDB.ChargeTrackers.TableStorage
 
-[View Code](https://github.com/william-liebenberg/AzureGems/tree/master/AzureGems.SpendOps.CosmosDB.ChargeTrackers.TableStorage)
 
 Charge Tracker using [Azure Table Storage](https://azure.microsoft.com/en-us/services/storage/tables/) for persisting [**#SpendOps**](https://azuregems.io/spendops-with-azure-cosmos-db/) data.
 
 ## AzureGems.SpendOps.CosmosDB.ChargeTrackers.CosmosDB
-
-[View Code](https://github.com/william-liebenberg/AzureGems/)
 
 Charge Tracker using [Azure Cosmos DB](https://azure.microsoft.com/en-us/services/cosmos-db/) for persisting [**#SpendOps**](https://azuregems.io/spendops-with-azure-cosmos-db/) data.
 
@@ -112,7 +101,6 @@ TODO: Finish Code
 
 ## AzureGems.MediatR.Extensions
 
-[View Code](https://github.com/william-liebenberg/AzureGems/tree/master/AzureGems.MediatR.Extensions)
 
 Simple but useful extensions for [MediatR](https://github.com/jbogard/MediatR)
 
