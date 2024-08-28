@@ -1,6 +1,5 @@
 # AzureGems
 
-Summary of all the [AzureGems](https://azuregems.io) libraries. For more detailed information check out the libraries individually.
 
   - [AzureGems.CosmosDB](#azuregemscosmosdb)
   - [AzureGems.Repository.Abstractions](#azuregemsrepositoryabstractions)
